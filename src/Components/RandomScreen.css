@@ -1,0 +1,108 @@
+.main-div{
+    margin: auto;
+    width: 657px;
+    height: 1000px;
+  
+    background-color: rgb(207, 181, 131);
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+   
+}
+
+
+.from-to .fromLabel{
+    /* margin-top: 20px; */
+    color: white;
+    /* margin-right: 10px; */
+
+}
+.from-to .toLabel{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.from-to{
+    margin-left: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.userInput>input
+{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.tijBtn{
+    padding: 20px 60px 20px 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+
+    border: 1px solid white;
+    border-radius: 14px;
+    background: rgb(161, 150, 115);
+    color: white;
+    margin-right: 20px;
+
+    margin-left: 20px;
+}
+
+.tijBtn:hover{
+    cursor: pointer;
+    background-color: rgb(116, 100, 70);
+    transition: 0.3s ease-in;
+    transform: scale(1.1);
+}
+.disableClass{
+    margin-right: 20px;
+    color: rgb(253, 243, 243);
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 14px;
+    padding: 20px 60px 20px 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+
+
+}
+.bilBtn{
+    padding: 20px 60px 20px 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+
+    border: 1px solid white;
+    border-radius: 14px;
+    background: rgb(190, 182, 154);
+    color: white;
+    margin-right: 20px;
+
+}
+.bilBtn:hover{
+    cursor: pointer;
+    background-color: rgb(199, 169, 113);
+    transition: 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+img{
+    /* height: 200px; */
+    width: 250px;
+    border-radius: 20px;
+
+}
+h2{
+    margin: 20px;
+}
